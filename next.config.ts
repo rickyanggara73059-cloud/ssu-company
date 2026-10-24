@@ -1,10 +1,13 @@
-import type { NextConfig } from "next";
+﻿import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  redirects() {
+    return [{ source: "/", destination: "/id", permanent: false }];
+  },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
+    root: process.cwd(),
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],
