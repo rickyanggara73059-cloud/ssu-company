@@ -2,10 +2,16 @@ import type { CompanyCopy } from "../types";
 
 // Curated English draft: pending owner review.
 export const copy = {
+  "iupOpPartners": {
+    "eyebrow": "Coal Supply Partnerships",
+    "subtitle": "SSU's coal supply partners and quality specifications to support discussions on supply requirements and cooperation.",
+    "qualityLabel": "Coal quality specification"
+  },
   "navigation": {
     "home": "Home",
     "about": "About SSU",
     "services": "Services",
+    "partners": "Partners",
     "values": "Our Values"
   },
   "accessibility": {

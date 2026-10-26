@@ -4,4 +4,4 @@ export const defaultLocale: Locale = "id";
 export function isLocale(value: string): value is Locale {
   return value === "id" || value === "en";
 }
-export const sectionIds = ["konten", "beranda", "tentang", "arah-perusahaan", "nilai", "layanan", "keunggulan", "legalitas", "manajemen", "kontak"] as const;
+export const sectionIds = ["konten", "beranda", "tentang", "arah-perusahaan", "nilai", "layanan", "iup-op-partners", "keunggulan", "legalitas", "manajemen", "kontak"] as const;

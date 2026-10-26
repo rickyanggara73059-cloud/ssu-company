@@ -4,7 +4,7 @@ import type { CompanyCopy } from "@/lib/i18n/types";
 import { sectionIds, type Locale } from "@/lib/i18n/locales";
 import type { SyntheticEvent } from "react";
 import { useEffect, useRef, useState } from "react";
-function navigationLinks(copy: Pick<CompanyCopy, "navigation">) { return [["#beranda", copy.navigation.home], ["#tentang", copy.navigation.about], ["#layanan", copy.navigation.services], ["#nilai", copy.navigation.values]]; }
+function navigationLinks(copy: Pick<CompanyCopy, "navigation">) { return [["#beranda", copy.navigation.home], ["#tentang", copy.navigation.about], ["#layanan", copy.navigation.services], ["#iup-op-partners", copy.navigation.partners], ["#nilai", copy.navigation.values]]; }
 export function Header({ locale, copy }: { locale: Locale; copy: Pick<CompanyCopy, "navigation" | "header" | "accessibility"> }) {
   const links = navigationLinks(copy);
   const [open, setOpen] = useState(false);

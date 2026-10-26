@@ -2,10 +2,16 @@ import type { CompanyCopy } from "../types";
 
 // Indonesian source copy preserved from the existing homepage.
 export const copy = {
+  "iupOpPartners": {
+    "eyebrow": "Kemitraan Pasokan Batu Bara",
+    "subtitle": "Mitra pasokan batu bara SSU beserta spesifikasi kualitas untuk mendukung pembahasan kebutuhan pasokan dan kerja sama.",
+    "qualityLabel": "Spesifikasi kualitas batu bara"
+  },
   "navigation": {
     "home": "Beranda",
     "about": "Tentang SSU",
     "services": "Layanan",
+    "partners": "Mitra",
     "values": "Nilai Kami"
   },
   "accessibility": {

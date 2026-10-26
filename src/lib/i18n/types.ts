@@ -1,9 +1,15 @@
 // All displayed copy is required in both manually curated dictionaries.
 export type CompanyCopy = {
+  iupOpPartners: {
+    eyebrow: string;
+    subtitle: string;
+    qualityLabel: string;
+  };
   navigation: {
     home: string;
     about: string;
     services: string;
+    partners: string;
     values: string;
   };
   accessibility: {
