@@ -1,8 +1,9 @@
 import type { CompanyCopy } from "../types";
 
-// Indonesian source copy preserved from the existing homepage.
+// Aligned with the official four-page Company Profile; English is a translation.
 export const copy = {
   "iupOpPartners": {
+    "cooperationHeading": "Kerja sama kami dengan",
     "eyebrow": "Kemitraan Pasokan Batu Bara",
     "subtitle": "Mitra pasokan batu bara SSU beserta spesifikasi kualitas untuk mendukung pembahasan kebutuhan pasokan dan kerja sama.",
     "qualityLabel": "Spesifikasi kualitas batu bara"
@@ -22,6 +23,7 @@ export const copy = {
     "footerNavigation": "Navigasi footer"
   },
   "header": {
+    "getInTouchLabel": "Hubungi Kami",
     "closeAria": "Tutup menu navigasi",
     "openAria": "Buka menu navigasi",
     "closeLabel": "Tutup",
@@ -32,43 +34,49 @@ export const copy = {
     "englishAria": "Lihat halaman ini dalam bahasa Inggris"
   },
   "values": {
+    "synergy": {
+      "title": "Synergy",
+      "body": "Kami percaya pada kolaborasi dan sinergi untuk menciptakan nilai yang berkelanjutan."
+    },
     "integrity": {
-      "title": "Integritas",
-      "body": "Mengedepankan keterbukaan sebagai dasar hubungan bisnis yang saling percaya."
+      "title": "Integrity",
+      "body": "Kami menjalankan bisnis dengan kejujuran, transparansi, dan nilai etika yang kuat."
     },
     "reliability": {
-      "title": "Keandalan",
-      "body": "Menjadikan konsistensi komunikasi dan kejelasan komitmen sebagai prinsip dalam merencanakan kerja sama."
+      "title": "Reliability",
+      "body": "Berkomitmen memberikan pasokan yang andal dengan eksekusi yang profesional."
     },
     "professionalism": {
-      "title": "Profesionalisme",
-      "body": "Mengutamakan koordinasi dan komunikasi yang jelas dalam setiap tahap kerja sama."
+      "title": "Professionalism",
+      "body": "Menghadirkan solusi dengan disiplin, tanggung jawab, dan kualitas prima."
     },
-    "eyebrow": "Nilai & Pendekatan",
+    "eyebrow": "Core Values",
     "heading": {
       "line1": "Fondasi untuk",
       "line2": "melangkah",
       "accent": "bersama."
     },
-    "intro": "Prinsip yang ingin kami hadirkan dalam membangun kemitraan dan membahas kebutuhan operasional."
+    "intro": "Nilai yang menjadi dasar kami dalam menjalankan bisnis dan membangun kemitraan."
   },
   "images": {
+    "aboutMiningAlt": "Area tambang dengan tumpukan batu bara, excavator, dan truk saat matahari terbenam",
+    "tradingMiningAlt": "Excavator memuat batu bara ke dalam truk di area tambang",
     "heroAlt": "Ilustrasi area industri batu bara dengan alat berat",
     "aboutAlt": "Ilustrasi kapal kargo di kawasan pelabuhan",
     "tradingAlt": "Ilustrasi kegiatan alat berat di area batu bara",
     "logisticsAlt": "Ilustrasi transportasi kargo di pelabuhan"
   },
   "hero": {
-    "eyebrow": "Coal Trading & Transportation",
+    "eyebrow": "Pengangkutan dan Penjualan Batu Bara",
     "heading": {
       "line1": "Menghubungkan",
       "line2": "sumber energi,",
       "line3": "menggerakkan kemajuan",
       "line4": "industri nasional."
     },
-    "description": "PT. Selaras Sinergi Utama (SSU) berfokus pada pengembangan layanan perdagangan dan transportasi batu bara untuk kebutuhan industri.",
+    "description": "PT Selaras Sinergi Utama (SSU) adalah perusahaan pemegang izin resmi Pengangkutan dan Penjualan Batu Bara, penghubung strategis antara produsen tambang dan pengguna akhir.",
     "partnershipCta": "Informasi Kemitraan",
-    "servicesCta": "Jelajahi layanan",
+    "servicesCta": "Bisnis Kami",
     "slogan": "SELARAS DALAM LANGKAH. SINERGI DALAM USAHA.",
     "aboutCta": "Kenali SSU"
   },
@@ -86,12 +94,13 @@ export const copy = {
       "lead": "Sinergi yang menggerakkan",
       "accent": "bisnis Anda."
     },
-    "paragraph1": "PT. Selaras Sinergi Utama (SSU) berfokus pada perdagangan dan penjualan batu bara serta pengangkutan dan manajemen logistik. Kedua bidang ini menjadi arah pengembangan layanan perusahaan.",
-    "paragraph2": "Pendekatan SSU dimulai dari memahami kebutuhan mitra: karakteristik pasokan, rencana pengangkutan, dan ruang lingkup tanggung jawab. Pembahasan yang jelas menjadi dasar untuk menilai peluang kerja sama.",
+    "paragraph1": "PT Selaras Sinergi Utama adalah perusahaan yang secara khusus bergerak di sektor logistik dan tata niaga batu bara. Berbekal perizinan resmi dari pemerintah, kami menyediakan solusi rantai pasok yang terintegrasi, mulai dari pemuatan di stockpile, pengelolaan armada angkut, hingga suplai akhir ke fasilitas klien.",
+    "paragraph2": "Pendekatan kami yang terencana dan adaptif memungkinkan kami untuk memenuhi berbagai kebutuhan kalori batu bara yang disesuaikan dengan spesifikasi teknis industri Anda, baik itu untuk pembangkit listrik, smelter, maupun pabrik manufaktur.",
     "executiveTitle": "Ringkasan Eksekutif",
-    "executiveBody": "SSU ingin membangun hubungan antara kebutuhan energi industri dan perencanaan distribusinya. Fokusnya adalah menyelaraskan pembahasan perdagangan dengan kebutuhan logistik melalui komunikasi yang terbuka dan profesional.",
-    "note": "Membangun hubungan bisnis melalui komunikasi yang terbuka dan pemahaman kebutuhan bersama.",
-    "approachCta": "Kenali pendekatan kami"
+    "executiveBody": "Ketersediaan energi yang stabil dan pengiriman yang tepat waktu adalah urat nadi bagi operasional industri. SSU berkomitmen menjadi penghubung strategis antara produsen tambang dan pengguna akhir, memastikan material tiba tepat waktu, memenuhi spesifikasi kualitas yang ketat, dan mematuhi seluruh regulasi tata niaga di Indonesia.",
+    "note": "Solusi rantai pasok batu bara yang terintegrasi.",
+    "approachCta": "Kenali pendekatan kami",
+    "downloadLabel": "Download Company Profile"
   },
   "services": {
     "eyebrow": "Layanan Utama",
@@ -99,20 +108,26 @@ export const copy = {
       "lead": "Dua layanan.",
       "accent": "Satu arah kemitraan."
     },
-    "intro": "Dari kebutuhan perdagangan hingga pengangkutan, temukan ruang kerja sama yang sesuai dengan bisnis Anda.",
+    "intro": "Perdagangan dan suplai, serta manajemen kualitas batu bara.",
     "trading": {
-      "title": "Perdagangan dan Penjualan Batu Bara",
+      "title": "Perdagangan & Suplai",
       "badgeLabel": "01 / TRADING",
-      "body": "Ruang lingkup yang ditawarkan untuk pembahasan mencakup kebutuhan spesifikasi, volume, serta skema perdagangan dan penjualan batu bara. Pelaksanaannya memerlukan penilaian kebutuhan dan kesepakatan para pihak.",
+      "body": "Menjembatani kebutuhan energi industri dengan batu bara dari sumber tambang yang legal. Kami menyuplai berbagai rentang nilai Gross As Received (GAR) yang paling optimal.",
       "cta": "Informasi kemitraan pasokan"
     },
     "logistics": {
-      "title": "Pengangkutan dan Manajemen Logistik",
-      "badgeLabel": "02 / TRANSPORTATION",
-      "body": "Ruang lingkup yang ditawarkan untuk pembahasan mencakup perencanaan pengangkutan, alur distribusi, dan koordinasi logistik batu bara. Pilihan rute, sarana, dan jadwal perlu dinilai sesuai kebutuhan kerja sama.",
+      "title": "Pengangkutan Logistik",
+      "badgeLabel": "01 / LOGISTICS",
+      "body": "Manajemen transportasi material batu bara yang terorganisir menuju pelabuhan bongkar muat (jetty) maupun langsung ke fasilitas pengguna akhir, memastikan rute dan kelancaran armada hauling.",
       "cta": "Informasi kemitraan logistik"
     },
-    "illustrationNotice": "Foto merupakan ilustrasi industri, bukan dokumentasi aset, lokasi, atau kegiatan SSU. Foto pelabuhan menggambarkan logistik kontainer secara umum, bukan fasilitas pengangkutan batu bara SSU."
+    "illustrationNotice": "Foto merupakan ilustrasi industri, bukan dokumentasi aset, lokasi, atau kegiatan SSU. Foto pelabuhan menggambarkan logistik kontainer secara umum, bukan fasilitas pengangkutan batu bara SSU.",
+    "quality": {
+      "title": "Manajemen Kualitas",
+      "badgeLabel": "02 / QUALITY",
+      "body": "Mengawal ketat kelengkapan dokumen terbang (SKAB & Laporan Surveyor independen) serta memastikan kualitas material kalori terjaga dari titik muat hingga serah terima.",
+      "cta": "Hubungi Kami"
+    }
   },
   "contact": {
     "eyebrow": "Kemitraan Bisnis",
@@ -122,12 +137,10 @@ export const copy = {
       "accent": "percakapan."
     },
     "intro": "Mari membahas kebutuhan perdagangan dan transportasi batu bara untuk bisnis Anda.",
-    "cardTitle": "Terhubung dengan SSU",
-    "availabilityMessage": "Informasi kontak resmi akan ditampilkan setelah dikonfirmasi oleh perusahaan.",
-    "availabilityStatus": "Kontak resmi belum tersedia"
+    "cardTitle": "PT Selaras Sinergi Utama"
   },
   "footer": {
-    "descriptor": "Perdagangan & transportasi batu bara.",
+    "descriptor": "Pengangkutan dan Penjualan Batu Bara.",
     "slogan": "Selaras dalam langkah, sinergi dalam usaha.",
     "partnershipLabel": "Kemitraan",
     "backToTopLabel": "Kembali ke atas",
@@ -139,29 +152,29 @@ export const copy = {
       "lead": "Arah yang jelas.",
       "accent": "Langkah yang selaras."
     },
-    "intro": "Aspirasi SSU dalam mengembangkan perdagangan dan logistik batu bara untuk kebutuhan industri.",
+    "intro": "Visi dan misi SSU dalam penyediaan dan logistik batu bara.",
     "visionLabel": "Visi",
-    "visionStatement": "Menjadi mitra yang dapat diandalkan dalam menghubungkan sumber energi dengan kebutuhan industri nasional.",
-    "visionBody": "SSU ingin tumbuh melalui kemitraan yang terbuka, profesional, dan berorientasi pada hubungan jangka panjang.",
+    "visionStatement": "Menjadi mitra penyedia dan logistik batu bara terkemuka yang berlandaskan pada ketepatan waktu, kualitas pasokan, dan kepatuhan hukum yang transparan.",
     "missionLabel": "Misi",
     "mission": {
-      "trade": "Mengembangkan layanan perdagangan batu bara berdasarkan pemahaman kebutuhan mitra.",
-      "logistics": "Menyelaraskan perencanaan pengangkutan dan logistik dengan ruang lingkup kerja sama.",
-      "integrity": "Mengedepankan integritas, komunikasi yang jelas, dan tanggung jawab dalam proses bisnis."
+      "trade": "Menyediakan pasokan batu bara yang konsisten sesuai standar kalori dan kuantitas permintaan klien.",
+      "logistics": "Mengelola sistem logistik pengangkutan yang aman, efisien, dan terkontrol secara profesional.",
+      "integrity": "Membangun kemitraan strategis jangka panjang dengan pemegang IUP OP (Izin Usaha Pertambangan Operasi Produksi) dan industri pengguna akhir.",
+      "compliance": "Menjalankan seluruh kegiatan tata niaga dengan memprioritaskan kepatuhan terhadap regulasi pertambangan nasional."
     }
   },
   "approach": {
     "needs": {
       "title": "Kebutuhan sebagai titik awal",
-      "body": "Pembahasan spesifikasi, volume, dan tujuan pengiriman menjadi dasar untuk merumuskan ruang lingkup kerja sama."
+      "body": "Pendekatan kami yang terencana dan adaptif memungkinkan kami untuk memenuhi berbagai kebutuhan kalori batu bara yang disesuaikan dengan spesifikasi teknis industri Anda, baik itu untuk pembangkit listrik, smelter, maupun pabrik manufaktur."
     },
     "alignment": {
       "title": "Perdagangan dan logistik yang selaras",
-      "body": "Pendekatan yang menghubungkan pembahasan pasokan dengan rencana pengangkutan agar kebutuhan dapat dipetakan sejak awal."
+      "body": "PT Selaras Sinergi Utama adalah perusahaan yang secara khusus bergerak di sektor logistik dan tata niaga batu bara. Berbekal perizinan resmi dari pemerintah, kami menyediakan solusi rantai pasok yang terintegrasi, mulai dari pemuatan di stockpile, pengelolaan armada angkut, hingga suplai akhir ke fasilitas klien."
     },
     "communication": {
       "title": "Komunikasi yang terstruktur",
-      "body": "Kejelasan peran, dokumen, dan tahapan pembahasan menjadi prinsip dalam membangun hubungan dengan mitra."
+      "body": "Menghadirkan solusi dengan disiplin, tanggung jawab, dan kualitas prima."
     },
     "eyebrow": "Pendekatan Strategis",
     "heading": {
@@ -176,8 +189,8 @@ export const copy = {
       "lead": "Kepatuhan sebagai",
       "accent": "landasan usaha."
     },
-    "paragraph1": "SSU menyadari pentingnya ketentuan hukum dan peraturan yang berlaku dalam perdagangan serta pengangkutan batu bara.",
-    "paragraph2": "Aspek perizinan, kelengkapan dokumen, dan tanggung jawab para pihak perlu menjadi bagian dari pembahasan sebelum menyepakati ruang lingkup kerja sama."
+    "paragraph1": "PT Selaras Sinergi Utama (SSU) adalah perusahaan pemegang izin resmi Pengangkutan dan Penjualan Batu Bara, penghubung strategis antara produsen tambang dan pengguna akhir.",
+    "paragraph2": "Menjalankan seluruh kegiatan tata niaga dengan memprioritaskan kepatuhan terhadap regulasi pertambangan nasional."
   },
   "management": {
     "eyebrow": "Manajemen & Cakupan Operasional",
@@ -188,16 +201,16 @@ export const copy = {
     "intro": "Kebutuhan setiap kerja sama menjadi dasar pembahasan pengelolaan dan cakupan layanan.",
     "coordination": {
       "title": "Pendekatan pengelolaan",
-      "body": "SSU menempatkan kejelasan tanggung jawab, alur komunikasi, dan koordinasi sebagai prinsip dalam merencanakan kerja sama perdagangan maupun logistik."
+      "body": "Manajemen transportasi material batu bara yang terorganisir menuju pelabuhan bongkar muat (jetty) maupun langsung ke fasilitas pengguna akhir, memastikan rute dan kelancaran armada hauling."
     },
     "coverage": {
       "title": "Perencanaan cakupan layanan",
-      "body": "Lokasi asal dan tujuan, jalur pengangkutan, volume, serta jadwal merupakan hal yang perlu dibahas dan dinilai sebelum menentukan cakupan layanan untuk suatu kebutuhan."
+      "body": "Pendekatan kami yang terencana dan adaptif memungkinkan kami untuk memenuhi berbagai kebutuhan kalori batu bara yang disesuaikan dengan spesifikasi teknis industri Anda, baik itu untuk pembangkit listrik, smelter, maupun pabrik manufaktur."
     }
   },
   "metadata": {
-    "title": "PT. Selaras Sinergi Utama | Perdagangan & Transportasi Batu Bara",
-    "description": "Kenali PT. Selaras Sinergi Utama (SSU), perusahaan di bidang perdagangan batu bara serta transportasi dan logistik batu bara. Jelajahi layanan dan peluang kemitraan."
+    "title": "PT Selaras Sinergi Utama | Pengangkutan dan Penjualan Batu Bara",
+    "description": "PT Selaras Sinergi Utama (SSU) adalah perusahaan pemegang izin resmi Pengangkutan dan Penjualan Batu Bara, penghubung strategis antara produsen tambang dan pengguna akhir."
   },
   "notFound": {
     "title": "Halaman tidak ditemukan",

@@ -10,11 +10,12 @@ export function CompanyDirection({ copy: direction }: { copy: CompanyCopy["direc
           <p className="body-copy">{copy.direction.intro}</p>
         </div>
         <div className="profile-grid">
-          <article className="profile-panel"><p className="eyebrow">{copy.direction.visionLabel}</p><h3>{copy.direction.visionStatement}</h3><p className="body-copy">{copy.direction.visionBody}</p></article>
+          <article className="profile-panel"><p className="eyebrow">{copy.direction.visionLabel}</p><h3>{copy.direction.visionStatement}</h3></article>
           <article className="profile-panel"><p className="eyebrow">{copy.direction.missionLabel}</p><ul className="profile-list">
             <li>{copy.direction.mission.trade}</li>
             <li>{copy.direction.mission.logistics}</li>
             <li>{copy.direction.mission.integrity}</li>
+            <li>{copy.direction.mission.compliance}</li>
           </ul></article>
         </div>
       </div>

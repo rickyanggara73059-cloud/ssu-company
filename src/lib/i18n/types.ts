@@ -1,6 +1,7 @@
 // All displayed copy is required in both manually curated dictionaries.
 export type CompanyCopy = {
   iupOpPartners: {
+    cooperationHeading: string;
     eyebrow: string;
     subtitle: string;
     qualityLabel: string;
@@ -20,6 +21,7 @@ export type CompanyCopy = {
     footerNavigation: string;
   };
   header: {
+    getInTouchLabel: string;
     closeAria: string;
     openAria: string;
     closeLabel: string;
@@ -30,6 +32,10 @@ export type CompanyCopy = {
     englishAria: string;
   };
   values: {
+    synergy: {
+      title: string;
+      body: string;
+    };
     integrity: {
       title: string;
       body: string;
@@ -55,6 +61,8 @@ export type CompanyCopy = {
     aboutAlt: string;
     tradingAlt: string;
     logisticsAlt: string;
+    aboutMiningAlt: string;
+    tradingMiningAlt: string;
   };
   hero: {
     eyebrow: string;
@@ -90,6 +98,7 @@ export type CompanyCopy = {
     executiveBody: string;
     note: string;
     approachCta: string;
+    downloadLabel: string;
   };
   services: {
     eyebrow: string;
@@ -111,6 +120,12 @@ export type CompanyCopy = {
       cta: string;
     };
     illustrationNotice: string;
+    quality: {
+      title: string;
+      badgeLabel: string;
+      body: string;
+      cta: string;
+    };
   };
   contact: {
     eyebrow: string;
@@ -121,8 +136,6 @@ export type CompanyCopy = {
     };
     intro: string;
     cardTitle: string;
-    availabilityMessage: string;
-    availabilityStatus: string;
   };
   footer: {
     descriptor: string;
@@ -140,12 +153,12 @@ export type CompanyCopy = {
     intro: string;
     visionLabel: string;
     visionStatement: string;
-    visionBody: string;
     missionLabel: string;
     mission: {
       trade: string;
       logistics: string;
       integrity: string;
+      compliance: string;
     };
   };
   approach: {

@@ -37,6 +37,12 @@ export function localizedMetadata(locale: Locale, copy: CompanyCopy): Metadata {
       description: copy.metadata.description,
       locale: locale === "id" ? "id_ID" : "en_US",
       alternateLocale: [locale === "id" ? "en_US" : "id_ID"],
+      images: [{
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Selaras Sinergi Utama (SSU)",
+      }],
       ...(url ? { url } : {}),
     },
   };
